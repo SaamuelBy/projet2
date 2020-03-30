@@ -1,0 +1,98 @@
+body {
+  background-color: #f5f5f5;
+  position: relative;
+}
+.liseret {
+  background-color: #ffb74d;
+}
+.principal {
+  padding-left: 60px;
+  padding-right: 40px;
+}
+.intro {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 16px;
+}
+h3 {
+  font-size: 22px;
+  height: 48px;
+  color: #f5f5f5;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 20px;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+h5 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+h6 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+p {
+  font-size: 10px;
+  margin-bottom: 2px;
+  text-align: justify;
+  color: #212121;
+}
+.imagehobbie {
+  color: #f5f5f5;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.imageicon {
+  color: #ffb74d;
+  float: left;
+  padding: 10px;
+  font-size: 30px;
+}
+.imagesamuel {
+  padding-top: 60px;
+  padding-bottom: 44px;
+}
+ul {
+  list-style: none;
+  font-size: 10px;
+}
+.hobbies {
+  bottom: 0;
+  padding-bottom: 30px;
+  position: absolute;
+}
+.experience,
+.formation {
+  padding-bottom: 40px;
+}
+.recommandation {
+  padding-bottom: 30px;
+}
+.experiencetitle,
+.formationtitle,
+.recommandationtitle {
+  border-bottom: 2px #ffb74d solid;
+  margin-bottom: 30px;
+}
+#monNom {
+  color: #ffb74d;
+}
+
+#wordsurlign {
+  border-bottom: 2px #ffb74d solid;
+  margin-bottom: 5px;
+}

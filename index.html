@@ -1,9 +1,15 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/projet2.css" />
-    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
   </head>
   <body>
     <div class="container-fluid">
@@ -47,13 +53,16 @@
               class="col-xs-12 col-sm-12 col-md-12 col-lg-12  aproposdemoi"
             >
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <span id="textaproposdemoi"
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.</span
+                >
               </p>
             </section>
           </div>
@@ -100,9 +109,11 @@
                 <div
                   class="col-xs-4 col-sm-4 col-md-4 col-lg-4 experiencesinfos"
                 >
-                  <img src="" alt="" />
-                  <p>2017-2020</p>
-                  <p>Nantes</p>
+                  <div class="row tableexperience">
+                    <i class="fas fa-map-marker-alt pointicon"></i>
+                    <p><span id="year">2017 à 2020</span></p>
+                  </div>
+                  <p><span id="ville">Nantes</span></p>
                 </div>
                 <div
                   class="col-xs-8 col-sm-8 col-md-8 col-lg-8 experiencesdetails"
@@ -124,9 +135,11 @@
                 <div
                   class="col-xs-4 col-sm-4 col-md-4 col-lg-4 experiencesinfos"
                 >
-                  <img src="" alt="" />
-                  <p>2018 à 2020</p>
-                  <p>Paris</p>
+                  <div class="row tableexperience">
+                    <i class="fas fa-map-marker-alt pointicon"></i>
+                    <p><span id="year">2018 à 2020</span></p>
+                  </div>
+                  <p><span id="ville">Paris</span></p>
                 </div>
                 <div
                   class="col-xs-8 col-sm-8 col-md-8 col-lg-8 experiencesdetails"
@@ -156,9 +169,11 @@
                 <div
                   class="col-xs-4 col-sm-4 col-md-4 col-lg-4  formationsinfos"
                 >
-                  <img src="" alt="" />
-                  <p>2015 à 2018</p>
-                  <p>Paris et Nantes</p>
+                  <div class="row tableformation">
+                    <i class="fas fa-map-marker-alt pointicon"></i>
+                    <p><span id="year">2020 à 2018</span></p>
+                  </div>
+                  <p><span id="ville">Paris et Nantes</span></p>
                 </div>
                 <div
                   class="col-xs-8 col-sm-8 col-md-8 col-lg-8 formationsdetails"
@@ -180,9 +195,11 @@
                 <div
                   class="col-xs-4 col-sm-4 col-md-4 col-lg-4 formationsinfos"
                 >
-                  <img src="" alt="" />
-                  <p>2020</p>
-                  <p>Paris</p>
+                  <div class="row tableexperience">
+                    <i class="fas fa-map-marker-alt pointicon"></i>
+                    <p><span id="year">2020</span></p>
+                  </div>
+                  <p><span id="ville">Paris</span></p>
                 </div>
                 <div
                   class="col-xs-8 col-sm-8 col-md-8 col-lg-8 formationsdetails"
@@ -215,7 +232,11 @@
                   class="col-xs-6 col-sm-6 col-md-6 col-lg-6 inforecommandation"
                 >
                   <h6>Nicolas De Rosen</h6>
-                  <p>CEO et Directeur Stratégique iAdvize US</p>
+                  <p>
+                    <span id="recommandationjob"
+                      >CEO et Directeur Stratégique iAdvize US
+                    </span>
+                  </p>
                   <p>Téléphone : 06 77 22 55 66</p>
                   <p>Mail : nicolas.derosen@gmail.com</p>
                 </div>
@@ -223,7 +244,9 @@
                   class="col-xs-6 col-sm-6 col-md-6 col-lg-6 inforecommandation"
                 >
                   <h6>Sebastien Lemeur</h6>
-                  <p>CTO Fiitli & Sportib</p>
+                  <p>
+                    <span id="recommandationjob">CTO Fiitli & Sportib</span>
+                  </p>
                   <p>Téléphone : 07 88 99 55 44</p>
                   <p>Mail : sebastien.lemeur44@gmail.com</p>
                 </div>

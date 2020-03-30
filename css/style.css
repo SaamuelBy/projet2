@@ -23,7 +23,7 @@ h2 {
 h3 {
   font-size: 22px;
   height: 48px;
-  color: #f5f5f5;
+  color: #f5f5f5 !important;
   background-color: #212121;
   display: flex;
   align-items: center;
@@ -45,12 +45,16 @@ h5 {
 h6 {
   font-size: 12px;
   text-transform: uppercase;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 p {
   font-size: 10px;
   margin-bottom: 2px;
   text-align: justify;
   color: #212121;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .imagehobbie {
   color: #f5f5f5;
@@ -63,6 +67,7 @@ p {
   float: left;
   padding: 10px;
   font-size: 30px;
+  padding-left: 20px;
 }
 .imagesamuel {
   padding-top: 60px;
@@ -97,4 +102,25 @@ ul {
 #wordsurlign {
   border-bottom: 2px #ffb74d solid;
   margin-bottom: 5px;
+}
+#recommandationjob {
+  font-weight: bold;
+}
+#ville {
+  font-weight: bold;
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.pointicon {
+  float: left;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  color: #ffb74d;
+}
+
+#year {
+  font-size: 16px;
+  text-decoration: underline;
 }
